@@ -1,7 +1,7 @@
 from lexer import Lexer
 
 while True:
-    text = input("ShadowScript: ")
+    text = input("> ")
     tokenizer = Lexer(text)
     tokens = tokenizer.tokenize()
 
